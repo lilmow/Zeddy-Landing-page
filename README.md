@@ -1,2 +1,2 @@
-# Zeddy Landing page
+# ZeddPay Landing page
  Clone the Old  zeddpay Landing Page
