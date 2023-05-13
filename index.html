@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"> 
+    <title>Zeddpay - Giving Airtime Superpowers | Home</title>
+</head>
+<body>
+  <header>
+    <div class="header_wrapper">
+      <img src="img/logo.svg" class="logo" alt="Zeddpay Logo">
+
+
+        <img id="mobile-cta" class="mobile-menu" src="img/menu.svg" alt="Open Navigation">
+
+        <nav>
+            <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close Navigation">
+            
+            <ul class="nav_link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <ul class="header_btn">
+                <button class="header_btn_1" type="submit">Log in</button>
+                <button class="header_btn_2" type="submit">Get Started</button>
+            </ul>
+        </nav>
+    </div>
+</header>
+  
+          
+
+        <main>
+            <!-- hero -->
+            <section class="hero">
+                <div class="hero_one">
+                    <h3>Purchase anything online with your airtime.</h3>
+                        <p>
+                            Shop online, go premium, get assets, pay for services and most importantly purchase that new Call of Duty weapon with airtime.
+                        </p>
+                    <button type="submit">Get Started</button>
+                </div>
+                <div class="hero_two">
+                    <img src="img/board.webp" alt="">
+                </div>
+            </section>
+
+            <!-- Feature -->
+            <section class="feature">
+                <div class="feature_content">
+                    <h4>The most convenient way to shop and make purchases online.</h4>
+                    <p>Access a wide range of online shopping options, premium services and even the latest Call of Duty weapons with the ease and convenience of using your airtime.</p>
+                </div>
+
+                <div class="features">
+                    <div>
+                        <img src="img/convert.svg" alt="">
+                        <h4>Instant Airtime Conversion</h4>
+                        <p>Zeddpay instantly converts your airtime to cash in just a matter of minutes.</p>
+                    </div>
+                    <div>
+                        <img src="img/money.d568f14e.svg" alt="">
+                        <h4>Airtime-Powered Shopping</h4>
+                        <p>Airtime-Powered Purchases Made Easy with Zeddpay.</p>
+                    </div>
+                    <div>
+                        <img src="img/secure.svg" alt="">
+                        <h4>Secure Transactions with Zeddpay</h4>
+                        <p>Experience peace of mind with Zeddpay's secure transactions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- favourite  -->
+            <section class="favourite">
+                <div>
+                   <h3>Shop Your Favorites: Amazon, Spotify, Bitcoin and More, with Zeddpay's Virtual Wallet</h3>
+                <p>Shop Your Favorites: Amazon, Spotify, Bitcoin and More, with Zeddpay's Virtual Wallet.</p>
+                <button type="submit">Get Started</button> 
+                </div>
+                <img src="img/app.webp" alt="">
+            </section>
+
+            <!-- how it works -->
+            <section class="work">
+                <div class="content">
+                    <h3>How it works</h3>
+                    <p>3 Easy Steps to Convert Airtime to Cash and Shop with Zeddpay.</p>
+                </div>
+
+                <div class="how_it_work">
+                    <div class="steps">
+                      <div class="steps_content">
+                        <h4>Log in to Zeddpay</h4>
+                        <p>Log in to your Zeddpay account on the app.</p>
+                      </div>
+                      <img src="img/phone.webp" alt="">
+                    </div>
+                    <div class="steps">
+                      <div class="steps_content">
+                        <h4>Enter the amount to convert</h4>
+                        <p>Enter the amount of airtime you want to convert into your Zeddpay digital wallet.</p>
+                      </div>
+                      <img src="img/phone.webp" alt="">
+                    </div>
+                    <div class="steps">
+                      <div class="steps_content">
+                        <h4>Confirm the transaction</h4>
+                        <p> Confirm the airtime conversion transaction</p>
+                      </div>
+                      <img src="img/phone.webp" alt="">
+                    </div>
+                    <div class="step_buttons">
+                      <button class="step_button active" onclick="toggleStep(0)"></button>
+                      <button class="step_button" onclick="toggleStep(1)"></button>
+                      <button class="step_button" onclick="toggleStep(2)"></button>
+                    </div>
+                  </div>                
+            </section>
+
+            <!-- FAQS -->
+            <section class="faq_wrapper">
+                <div class="faq_content">
+                    <div class="faq_content_top">
+                        <h3>Here are some frequently asked questions</h3>
+                        <p>We answered some questions so you don&#x27;t need to ask them.</p>
+                    </div>
+
+                    <div class="faq_content_bottom">
+                        <!-- Faq Question -->
+                        <div class="faq">
+                          <div class="faq_question">
+                            <h3>What services do you offer?</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                      
+                          <div class="faq_answer" id="faq_answer_1">
+                            Our platform allows you to make transactions and access financial services using airtime. We are dedicated to making online payments simple and accessible to everyone, including individuals and businesses across Africa.
+                          </div>
+                        </div>
+                      
+                        <!-- Faq Question -->
+                        <div class="faq">
+                          <div class="faq_question">
+                            <h3>Is my financial information safe with you?</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                      
+                          <div class="faq_answer" id="faq_answer_2">
+                            Yes, we take the security of your financial information very seriously. Our platform is built with top-notch security features and protocols to ensure that your information is always safe and secure.
+                          </div>
+                        </div>
+                      
+                        <!-- Faq Question -->
+                        <div class="faq">
+                          <div class="faq_question">
+                            <h3>How do I get started with your platform?</h3>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </div>
+                      
+                          <div class="faq_answer" id="faq_answer_3">
+                            Getting started is easy! Simply create an account on our platform, and you'll be able to start using our services right away. We offer a seamless and intuitive user interface that makes it easy to use our platform for all your financial transactions.
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
+  
+
+                <div class="faq_img">
+                    <img src="img/face.svg" alt="">
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer_col">
+                    <div class="footer_img">
+                        <img src="img/logo.svg" alt="Zeddpay Logo">
+                    </div>
+                    <p>Zeddpay is a payment platform that allows you pay for services with your airtime.</p>
+                    <div class="social_media_icons">
+                        <a href="https://twitter.com/your_techie"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/your_techie"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/your_techie"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer_col">
+                    <h4>Contact Info</h4>
+                    <p>123 Victoria Island, Lagos, Nigeria</p>
+                    <a href="#">support@zeddpay.com</a>
+                    <a href="#">+234 356 5378 6287</a>
+                </div>
+                <div class="footer_col">
+                    <h4>Company</h4>
+                    <a href="#">Career</a>
+                    <a href="#">Partnerships</a>
+                    <a href="#">Affiliate Program</a>
+                </div>
+                <div class="footer_col">
+                    <h4>Legal</h4>
+                    <a href="#">Terms &amp Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Help &amp Support</a>
+                </div>
+            </footer>
+          
+        </main>
+
+        <div class="copy">
+            Copyright &copy 2023 <a href="https://www.zeddpay.com/" target="_blank">Zeddpay</a> - All rights reserved
+        </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
